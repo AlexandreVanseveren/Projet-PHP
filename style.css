@@ -1,0 +1,93 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+    
+}
+html, body {
+    background-color: #F2F2F2;
+    position: relative;
+}
+
+body {
+    padding: 50px;
+
+}
+main {
+    max-width: 300px;
+    padding: 20px;
+}
+#chatroom.hide {
+    display: none;
+}
+#chatroom {
+    display: block;
+}
+
+#connect-form.hide {
+    display: none;
+}
+#connect-form {
+    display: block;
+}
+
+#connect.hide {
+    display: none;
+}
+#connect {
+    display: block;
+}
+
+ul, li {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li span.author {
+    color: #999;
+    display: block;
+    font-size: 12px
+}
+
+li span.message {
+    display: inline-block;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+li.mine {
+    text-align: right;
+}
+li.mine span.message {
+    background-color: #2574a9;
+    color: white;
+}
+
+ul.user-list {
+    font-weight: 700;
+}
+
+ul.message-list li {
+    padding: 10px 0;
+}
+
+
+
+input[type="submit"], button {
+    display: inline-block;
+    padding: 5px 10px;
+    appearance: none;
+    border: none;
+    background-color: #2574a9;
+    color: white;
+}
+
+input[type="text"] {
+    padding: 5px 10px;
+    font-family: 'Roboto';
+}
+label {
+    display: block;
+}
